@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Locale::gettext
 Summary(zh_CN):	Locale::gettext Perl дё©И
 Name:		perl-Locale-gettext
 Version:	1.01
-Release:	6
+Release:	7
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
