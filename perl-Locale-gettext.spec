@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Locale::gettext
 Summary(it):	Modulo di Perl Locale::gettext
 Summary(ja):	Locale::gettext Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Locale::gettext ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Locale::gettext
+Summary(nb):	Perlmodul Locale::gettext
 Summary(pl):	Modu³ Perla Locale::gettext
 Summary(pt):	Módulo de Perl Locale::gettext
 Summary(pt_BR):	Módulo Perl Locale::gettext
