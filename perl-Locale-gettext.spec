@@ -8,7 +8,7 @@ Version:	1.03
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Locale/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	01cfb2ea29408eacc5da6bd2f88fe526
 URL:		http://search.cpan.org/dist/gettext/
 BuildRequires:	perl-devel >= 1:5.8.0
