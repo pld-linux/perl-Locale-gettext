@@ -1,31 +1,17 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Locale
 %define	pnam	gettext
-Summary:	Locale::gettext Perl module
-Summary(cs):	Modul Locale::gettext pro Perl
-Summary(da):	Perlmodul Locale::gettext
-Summary(de):	Locale::gettext Perl Modul
-Summary(es):	Módulo de Perl Locale::gettext
-Summary(fr):	Module Perl Locale::gettext
-Summary(it):	Modulo di Perl Locale::gettext
-Summary(ja):	Locale::gettext Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Locale::gettext ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul Locale::gettext
-Summary(pl):	Modu³ Perla Locale::gettext
-Summary(pt):	Módulo de Perl Locale::gettext
-Summary(pt_BR):	Módulo Perl Locale::gettext
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Locale::gettext
-Summary(sv):	Locale::gettext Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Locale::gettext
-Summary(zh_CN):	Locale::gettext Perl Ä£¿é
+Summary:	Locale::gettext Perl module - message handling functions
+Summary(pl):	Modu³ Perla Locale::gettext - funkcje do obs³ugi komunikatów
 Name:		perl-Locale-gettext
 Version:	1.01
 Release:	8
 License:	unknown
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Locale/%{pnam}-%{version}.tar.gz
 # Source0-md5:	dce77a8733a0e88d8c5fb5bd86ec5f0a
 Patch0:		%{name}-include.patch
+URL:		http://search.cpan.org/dist/gettext/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-gettext
