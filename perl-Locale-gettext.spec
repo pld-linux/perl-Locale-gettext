@@ -21,7 +21,7 @@ Summary(zh_CN):	Locale::gettext Perl Ä£¿é
 Name:		perl-Locale-gettext
 Version:	1.01
 Release:	6
-License:	distributable
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	dce77a8733a0e88d8c5fb5bd86ec5f0a
