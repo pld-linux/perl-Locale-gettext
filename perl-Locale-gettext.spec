@@ -20,11 +20,12 @@ Summary(uk):	Модуль для Perl Locale::gettext
 Summary(zh_CN):	Locale::gettext Perl дё©И
 Name:		perl-Locale-gettext
 Version:	1.01
-Release:	7
+Release:	8
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	dce77a8733a0e88d8c5fb5bd86ec5f0a
+Patch0:		%{name}-include.patch
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-gettext
@@ -42,6 +43,7 @@ jak ich wersje w C.
 
 %prep
 %setup -q -n %{pnam}-%{version}
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
