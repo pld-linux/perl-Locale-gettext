@@ -43,7 +43,7 @@ jak ich wersje w C.
 %setup -q -n %{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
