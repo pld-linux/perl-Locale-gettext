@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Locale
-%define		pnam	gettext
+%define	pdir	Locale
+%define	pnam	gettext
 Summary:	Locale::gettext Perl module
 Summary(cs):	Modul Locale::gettext pro Perl
 Summary(da):	Perlmodul Locale::gettext
