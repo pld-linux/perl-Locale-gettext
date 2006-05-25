@@ -4,12 +4,12 @@
 Summary:	Locale::gettext Perl module - message handling functions
 Summary(pl):	Modu³ Perla Locale::gettext - funkcje do obs³ugi komunikatów
 Name:		perl-Locale-gettext
-Version:	1.03
-Release:	3
+Version:	1.05
+Release:	4
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-# Source0-md5:	01cfb2ea29408eacc5da6bd2f88fe526
+# Source0-md5:	f3d3f474a1458f37174c410dfef61a46
 URL:		http://search.cpan.org/dist/gettext/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
