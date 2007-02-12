@@ -2,7 +2,7 @@
 %define		pdir	Locale
 %define		pnam	gettext
 Summary:	Locale::gettext Perl module - message handling functions
-Summary(pl):	Modu³ Perla Locale::gettext - funkcje do obs³ugi komunikatów
+Summary(pl.UTF-8):   ModuÅ‚ Perla Locale::gettext - funkcje do obsÅ‚ugi komunikatÃ³w
 Name:		perl-Locale-gettext
 Version:	1.05
 Release:	1
@@ -21,9 +21,9 @@ Locale::gettext is a Perl 5 module quickly written to gain access to
 the C library functions for internatialization.  They work just like
 the C versions.
 
-%description -l pl
-Locale::gettext jest modu³em Perla umo¿liwiaj±cym dostêp do funkcji
-u³atwiaj±cych umiêdzynarodowienie programów. Dzia³aj± one tak samo
+%description -l pl.UTF-8
+Locale::gettext jest moduÅ‚em Perla umoÅ¼liwiajÄ…cym dostÄ™p do funkcji
+uÅ‚atwiajÄ…cych umiÄ™dzynarodowienie programÃ³w. DziaÅ‚ajÄ… one tak samo
 jak ich wersje w C.
 
 %prep
