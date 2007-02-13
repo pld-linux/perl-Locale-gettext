@@ -2,7 +2,7 @@
 %define		pdir	Locale
 %define		pnam	gettext
 Summary:	Locale::gettext Perl module - message handling functions
-Summary(pl.UTF-8):   Moduł Perla Locale::gettext - funkcje do obsługi komunikatów
+Summary(pl.UTF-8):	Moduł Perla Locale::gettext - funkcje do obsługi komunikatów
 Name:		perl-Locale-gettext
 Version:	1.05
 Release:	1
