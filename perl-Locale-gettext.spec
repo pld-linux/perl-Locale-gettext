@@ -33,6 +33,7 @@ jak ich wersje w C.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}" \
 	LDDLFLAGS="%{rpmcflags} -shared"
 
