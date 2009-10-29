@@ -5,11 +5,12 @@ Summary:	Locale::gettext Perl module - message handling functions
 Summary(pl.UTF-8):	Moduł Perla Locale::gettext - funkcje do obsługi komunikatów
 Name:		perl-Locale-gettext
 Version:	1.05
-Release:	5
+Release:	6
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	f3d3f474a1458f37174c410dfef61a46
+Patch0:		perl510.patch
 URL:		http://search.cpan.org/dist/gettext/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -28,6 +29,7 @@ jak ich wersje w C.
 
 %prep
 %setup -q -n %{pnam}-%{version}
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \

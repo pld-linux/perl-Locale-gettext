@@ -1,0 +1,12 @@
+fix for warnings about 'main::LC_ALL'
+stolen from http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=479803
+--- liblocale-gettext-perl-1.05.orig/gettext.pm	2008-05-07 09:40:23.000000000 +0200
++++ liblocale-gettext-perl-1.05/gettext.pm	2008-05-07 09:41:04.000000000 +0200
+@@ -32,6 +32,7 @@
+ =cut
+ 
+ use Carp;
++use POSIX qw(:locale_h);
+ 
+ require Exporter;
+ require DynaLoader;
