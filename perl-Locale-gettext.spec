@@ -8,7 +8,7 @@ Version:	1.05
 Release:	7
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Locale/%{pnam}-%{version}.tar.gz
 # Source0-md5:	f3d3f474a1458f37174c410dfef61a46
 Patch0:		perl510.patch
 URL:		http://search.cpan.org/dist/gettext/
@@ -51,8 +51,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_vendorarch}/Locale/*
+%{perl_vendorarch}/Locale/gettext.pm
 %dir %{perl_vendorarch}/auto/Locale/gettext
 %{perl_vendorarch}/auto/Locale/gettext/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Locale/gettext/*.so
-%{_mandir}/man3/*
+%{_mandir}/man3/Locale::gettext.3pm*
