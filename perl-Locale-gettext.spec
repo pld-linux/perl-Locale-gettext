@@ -53,6 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorarch}/Locale/gettext.pm
 %dir %{perl_vendorarch}/auto/Locale/gettext
-%{perl_vendorarch}/auto/Locale/gettext/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Locale/gettext/*.so
 %{_mandir}/man3/Locale::gettext.3pm*
