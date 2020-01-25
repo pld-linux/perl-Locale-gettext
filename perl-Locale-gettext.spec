@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Locale
 %define		pnam	gettext
 Summary:	Locale::gettext Perl module - message handling functions
