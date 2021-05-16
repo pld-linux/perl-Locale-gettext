@@ -12,6 +12,7 @@ Source0:	http://www.cpan.org/modules/by-module/Locale/%{pnam}-%{version}.tar.gz
 URL:		http://search.cpan.org/dist/gettext/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Obsoletes:	perl-gettext
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
