@@ -13,7 +13,7 @@ URL:		http://search.cpan.org/dist/gettext/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
-Obsoletes:	perl-gettext
+Obsoletes:	perl-gettext < 1.02
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
