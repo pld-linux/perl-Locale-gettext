@@ -9,7 +9,7 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Locale/%{pnam}-%{version}.tar.gz
 # Source0-md5:	bc652758af65c24500f1d06a77415019
-URL:		http://search.cpan.org/dist/gettext/
+URL:		https://metacpan.org/dist/gettext
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
